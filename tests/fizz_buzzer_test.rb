@@ -16,10 +16,10 @@ class FizzBuzzerTest < Test::Unit::TestCase
     '5' => ['Buzz', 5],
     '15' => ['Fizz Buzz', 15],
     '16' => [16, 16],
-    '100' => ['Buzz', 100],
+    '100' => ['Buzz', 100]
   )
   def test_equal(data)
-      expected, param = data
-      assert_equal(expected, @target.fizz_buzz(param));
+    expected, param = data
+    assert_equal(expected, @target.fizz_buzz(param))
   end
 end

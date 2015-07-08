@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "test-unit", "3.1.2"
-gem "rubocop", require: false
+gem 'test-unit', '3.1.2'
+gem 'rubocop', require: false
